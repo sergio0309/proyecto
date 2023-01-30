@@ -112,17 +112,17 @@ return true;
   
       
       <div class="btn-group">
-  <button style="margin-left:0px; margin-bottom:0px;" class="btn" onClick="goBack()"><i class="icon-hand-left"></i> Back</button>
+  <button style="margin-left:0px; margin-bottom:0px;" class="btn" onClick="goBack()"><i class="icon-hand-left"></i>Atrás</button>
   <button class="btn dropdown-toggle" data-toggle="dropdown">
     <span class="caret"></span>
   </button>
   <ul class="dropdown-menu">
   
-  <li><a tabindex="-1" href="#"><strong>Dates of Reservation</strong></a></li>
+  <li><a tabindex="-1" href="#"><strong>Fechas de Reserva</strong></a></li>
   <li class="divider"></li>
-  <li><a tabindex="-1" href="#"><span class="text-info">Arrival:</span> <?php echo $start?></a></li>
-  <li><a tabindex="-1" href="#"><span class="text-info">Departure:</span> <?php echo $end?></a></li>
-  <li><a tabindex="-1" href="#"><span class="text-info">No. of Days:</span> <?php echo $result?></a></li>
+  <li><a tabindex="-1" href="#"><span class="text-info">Llegada:</span> <?php echo $start?></a></li>
+  <li><a tabindex="-1" href="#"><span class="text-info">Salida:</span> <?php echo $end?></a></li>
+  <li><a tabindex="-1" href="#"><span class="text-info">Nº de Días:</span> <?php echo $result?></a></li>
     <!-- dropdown menu links -->
   </ul>
 </div>
@@ -134,9 +134,9 @@ return true;
                             <form name="form1" onSubmit="return validate()" method="post" action="reservation.php">
                           
       
-      	<div class="pull-right"><button class="btn btn-large btn-primary" name="submit" type="submit"><i class="icon-check"></i> Reserved</button></div>
+      	<div class="pull-right"><button class="btn btn-large btn-primary" name="submit" type="submit"><i class="icon-check"></i> Reservado</button></div>
       
-        <h4>Step 2: Please Select Rooms</h4>
+        <h4>Paso 2: seleccione habitaciones</h4>
         
         
         
@@ -152,17 +152,17 @@ return true;
                             <thead class=" hero-unit">
                                 <tr>
                                 
-                                	<th width="60"><div align="center" style="margin-top:10px;">Image</div></th>
-                                    <th width="20"><div align="center" style="margin-top:10px;">No.</div></th>
-                                    <th width="100"><div align="center" style="font-size:16px">Price</div></th>
-                                    <th width="50"><div align="center" style="font-size:18px;">Adults</div><div style="font-size:10px;" align="center"> Age: 8+</div></th>
-                                    <th width="50"><div align="center" style="font-size:18px;">Childs</div><div style="font-size:10px;" align="center"> Age: 0-7</div></th>
-                                    <th width="180"><div align="center" style="font-size:16px">Category</div></th>
-                                    <th width="180"><div align="center" style="font-size:16px">10% Pre-payment</div></th>
-                                    <th><div align="center" style="font-size:16px">Status</div></th>
+                                	<th width="60"><div align="center" style="margin-top:10px;">Imagen</div></th>
+                                    <th width="20"><div align="center" style="margin-top:10px;">No°</div></th>
+                                    <th width="100"><div align="center" style="font-size:16px">Precio</div></th>
+                                    <th width="50"><div align="center" style="font-size:18px;">Adultos</div><div style="font-size:10px;" align="center"> Age: 8+</div></th>
+                                    <th width="50"><div align="center" style="font-size:18px;">Niños</div><div style="font-size:10px;" align="center"> Age: 0-7</div></th>
+                                    <th width="180"><div align="center" style="font-size:16px">Categoría</div></th>
+                                    <th width="180"><div align="center" style="font-size:16px">10% de prepago</div></th>
+                                    <th><div align="center" style="font-size:16px">Estado</div></th>
                                
 
-                         <th width="60"><div align="center" style="font-size:16px">Reserve</div></th>
+                         <th width="60"><div align="center" style="font-size:16px">Reservar</div></th>
                           
                                 </tr>
                             </thead>

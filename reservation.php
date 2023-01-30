@@ -72,15 +72,15 @@ function goBack()
   </button>
   <ul class="dropdown-menu">
   
-  <li><a tabindex="-1" href="#"><strong>Dates of Reservation</strong></a></li>
+  <li><a tabindex="-1" href="#"><strong>Fechas de Reserva</strong></a></li>
   <li class="divider"></li>
-  <li><a tabindex="-1" href="#"><span class="text-info">Arrival:</span> <?php echo $start?></a></li>
-  <li><a tabindex="-1" href="#"><span class="text-info">Departure:</span> <?php echo $end?></a></li>
-  <li><a tabindex="-1" href="#"><span class="text-info">No. of Days:</span> <?php echo $result?></a></li>
+  <li><a tabindex="-1" href="#"><span class="text-info">Llegada:</span> <?php echo $start?></a></li>
+  <li><a tabindex="-1" href="#"><span class="text-info">Salida:</span> <?php echo $end?></a></li>
+  <li><a tabindex="-1" href="#"><span class="text-info">Nº de Días:</span> <?php echo $result?></a></li>
   <li class="divider"></li>
-  <li><a tabindex="-1" href="#"><strong>Room</strong></a></li>
+  <li><a tabindex="-1" href="#"><strong>Habitación</strong></a></li>
   <li class="divider"></li>
-  <li><a tabindex="-1" href="#"><span class="text-info">Room ID.</span>  <?php
+  <li><a tabindex="-1" href="#"><span class="text-info">Identificación de la habitación.</span>  <?php
 
 					$id=$_POST['selector'];
 					$N = count($id);
@@ -98,12 +98,12 @@ function goBack()
                 
 
 
-        <h4>Step 3: Confirm reservation</h4>
+        <h4>Paso 3: Confirmar reserva</h4>
         
 			<hr>
             <table>
             	<tr>
-					<td><strong>Room no.</strong></td>
+					<td><strong>N° Habitación</strong></td>
                     <td width="300px"><div align="right"> 
   	<?php 
   
@@ -130,7 +130,7 @@ function goBack()
     <?php }?>  </div></td>
  				</tr>
                 <tr>
-                	<td><strong>Price</strong></td>
+                	<td><strong>Precio</strong></td>
                 	<td><div align="right"><?php 
   
   	$id=$_POST['selector'];
@@ -202,7 +202,7 @@ function goBack()
                 </tr>
                 <tr>
                 	<td></td>
-                    <td><div align="right">Total room price with charges:</div></td>
+                    <td><div align="right">Precio total de la habitación con cargos:</div></td>
                     <td width="100px"><div align="right"><?php 
 					
 					$rtotal = $f;
@@ -284,20 +284,20 @@ function goBack()
                 </tr>
                 <tr>
                 	<td></td>
-                    <td><div align="right"><i class="icon-info-sign"></i> Taxes:</div></td>
+                    <td><div align="right"><i class="icon-info-sign"></i> Impuestos:</div></td>
                     <td width="100px"><div align="right"><?php echo 'PHP'." ".$t;?> </div></td>
                 
                 </tr>
                 <tr>
                 	<td></td>
-                    <td><div align="right">Total reservation cost:</div></td>
+                    <td><div align="right">Coste total de la reserva:</div></td>
                     <td width="100px"><div align="right"><?php echo 'PHP'." ".$tt;?> </div></td>
                 
                 </tr>
                
                 <tr class="alert alert-info">
                 	<td></td>
-                    <td><div align="right">DUE NOW - PREPAYMENT 10%:</div></td>
+                    <td><div align="right">VENCE AHORA - PREPAGO 10%:</div></td>
                     <td width="100px"><div align="right"><?php echo 'PHP'." ".$pre;?> </div></td>
                 </tr>
                 <tr class="alert alert-success">    
@@ -312,7 +312,7 @@ function goBack()
             	<form action="details.php" method="post">
                 
                 <div style="margin-right:16px; margin-top:20px;" class="pull-right">
-                <button name="order" class="btn btn-large btn-primary" type="submit"><i class="icon-user"></i> Guest details <i class="icon-arrow-right"></i></button>
+                <button name="order" class="btn btn-large btn-primary" type="submit"><i class="icon-user"></i> Detalles del huésped <i class="icon-arrow-right"></i></button>
             		</div>
                	<p>&nbsp;</p> 
                 <p>&nbsp;</p>
@@ -379,7 +379,7 @@ function goBack()
     
     			<div class="form-signin">
 					
-                    <h4><i class="icon-time"></i> Arrival & Departure Details</h4>
+                    <h4><i class="icon-time"></i> Detalles de llegada y salida</h4>
                     <hr>
 					<table>
                     	<tr>
@@ -387,18 +387,18 @@ function goBack()
                             <td width="100px"><div align="right"><?php echo $start;?></div></td>  
                     	</tr>
                         <tr>
-                    		<td><strong>Departure:</strong></td>
+                    		<td><strong>Llegada:</strong></td>
                             <td width="100px"><div align="right"><?php echo $end;?></div></td>  
                     	</tr>
                         <tr>
-                    		<td><strong>Number of night/s:</strong></td>
+                    		<td><strong>Número de noches:</strong></td>
                             <td width="100px"><div align="right"><?php if ($result==1){echo $result; echo ' night'; }else{echo $result; echo ' nights';}?></div></td>  
                     	</tr>
                     </table>
                     <hr>
-                    <p>Prepayment  is required to confirm your reservation and this is non-refundable.</p>
-                    <p>No additional charge if you cancel 24 hour(s) or more before your arrival date. For cancellations
-                    made less than 24 hour(s) before the arrival date, the cost of the first night will be apply</p>
+                    <p>Se requiere pago por adelantado para confirmar su reserva y esto no es reembolsable.</p>
+                    <p>Sin cargo adicional si cancela 24 horas o más antes de la fecha de llegada. Para cancelaciones
+                    realizado con menos de 24 hora(s) antes de la fecha de llegada, se aplicará el costo de la primera noche</p>
  
       			</div>
                 

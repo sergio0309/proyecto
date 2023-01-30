@@ -235,23 +235,23 @@ function goBack()
 
     <div class="container-narrow">
 
-   	<button style="margin-bottom:-80px;" class="btn" onClick="goBack()"><i class="icon-hand-left"></i> Back</button>
+   	<button style="margin-bottom:-80px;" class="btn" onClick="goBack()"><i class="icon-hand-left"></i> Atrás</button>
       <hr>
 
       <div class="jumbotron">
-        <h1>Please Select Your Dates</h1>
+        <h1>Seleccione sus fechas</h1>
         <p class="lead"><img src="media/kingsfields.png" width="150" height="150"></p>
     
       
       				<form method="post" action="selectrooms.php" name="index" onSubmit="return validateForm()">
 				                    
-					  <span style="margin-right: 5px; color:rgba(0,0,0,1);">Start Date: <input type="text" class="w8em format-d-m-y highlight-days-67 range-low-today" placeholder="Arrival" name="start" id="sd" value="" maxlength="10" readonly style="width: 210px; margin-left: 15px; border: 1px double #CCCCCC; padding:5px 10px;"/></span><br>
-						<span style="margin-right: 5px; color:rgba(0,0,0,1);">End Date:<input type="text" class="w8em format-d-m-y highlight-days-67 range-low-today" placeholder="Departure" name="end" id="ed" value="" maxlength="10" readonly style="width: 210px; margin-left: 23px; border: 1px double #CCCCCC; padding:5px 10px;" /></span><br>
+					  <span style="margin-right: 5px; color:rgba(0,0,0,1);">Fecha de inicio: <input type="text" class="w8em format-d-m-y highlight-days-67 range-low-today" placeholder="Arrival" name="start" id="sd" value="" maxlength="10" readonly style="width: 210px; margin-left: 15px; border: 1px double #CCCCCC; padding:5px 10px;"/></span><br>
+						<span style="margin-right: 5px; color:rgba(0,0,0,1);">Fecha final:<input type="text" class="w8em format-d-m-y highlight-days-67 range-low-today" placeholder="Departure" name="end" id="ed" value="" maxlength="10" readonly style="width: 210px; margin-left: 23px; border: 1px double #CCCCCC; padding:5px 10px;" /></span><br>
 						<input type="hidden" name="result" id="result" /><br>
                         
                     
         <div align="center"> 	
-<button type="submit" onClick="setDifference(this.form);" class="btn btn-info"><i class="icon-check"></i> CHECK AVAILABILITY</button>
+<button type="submit" onClick="setDifference(this.form);" class="btn btn-info"><i class="icon-check"></i> CONSULTAR DISPONIBILIDAD</button>
        </div>
                         
 						

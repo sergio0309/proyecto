@@ -55,8 +55,8 @@
           <div class="nav-collapse collapse">
             <ul class="nav">
               <li><a href="index.php"><i class="icon-home"></i> Home</a></li>
-              <li class="active"><a href="room.php"><i class="icon-list"></i> Rooms</a></li>
-              <li><a href="#contact" data-toggle="modal"><i class="icon-envelope"></i> Contact</a></li>
+              <li class="active"><a href="room.php"><i class="icon-list"></i> Habitaciones</a></li>
+              <li><a href="#contact" data-toggle="modal"><i class="icon-envelope"></i> Contacto</a></li>
             </ul>
             <form method="post" class="navbar-form pull-right">
  
@@ -66,14 +66,14 @@
               
               
             <div class="btn-group">
-  					<button type="submit" class="btn" name="login"><i class="icon-check"></i> Sign in</button>
+  					<button type="submit" class="btn" name="login"><i class="icon-check"></i> Registrarse</button>
   					<button class="btn dropdown-toggle" data-toggle="dropdown">
     				<span class="caret"></span>
   					</button>
   				<ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
-    				<li><a href="#cancel" data-toggle="modal"><i class="icon-remove"></i> Cancel Reservation</a></li>
+    				<li><a href="#cancel" data-toggle="modal"><i class="icon-remove"></i> Cancelar la reserva</a></li>
                     <li class="divider"></li>
-                    <li><a href="booking.php"><i class="icon-calendar"></i> Check Availability</a></li>
+                    <li><a href="booking.php"><i class="icon-calendar"></i> Consultar disponibilidad</a></li>
   				</ul>
 			</div>
               
@@ -131,10 +131,10 @@
     <h3 id="myModalLabel">Kingsfields Express Inn</h3>
   </div>
   <div class="modal-body">
-    <p>One fine body…</p>
+    <p>Un cuerpo fino…</p>
   </div>
   <div class="modal-footer">
-    <button class="btn" data-dismiss="modal" aria-hidden="true"><i class="icon-remove"></i> Close</button>
+    <button class="btn" data-dismiss="modal" aria-hidden="true"><i class="icon-remove"></i> Cerrar</button>
   </div>
 </div><!--Modal end -->
 
@@ -151,10 +151,10 @@
                 	
                 <form action="" method="post">
                         
-                <div style="margin-left:-110px;">Your Full Name: <input name="name" type="text" required placeholder="Full name"></div>
-        		<div style="margin-left:-105px;">Email Address: <input name="email" type="email" required placeholder="Email"></div>	
+                <div style="margin-left:-110px;">Tu nombre completo: <input name="name" type="text" required placeholder="Full name"></div>
+        		<div style="margin-left:-105px;">Dirección de correo electrónico: <input name="email" type="email" required placeholder="Email"></div>	
                    
-                <div style="margin-right:-75px;">Message: <textarea required placeholder="message" class="span4" name="message" rows="6"></textarea></div>
+                <div style="margin-right:-75px;">Mensaje: <textarea required placeholder="message" class="span4" name="message" rows="6"></textarea></div>
             		
                	
                 
@@ -185,8 +185,8 @@
   
   </div>
   <div class="modal-footer">
-  <button class="btn btn-primary" name="send" type="submit"><i class="icon-envelope"></i> Send</button>             
-  <button class="btn" data-dismiss="modal" aria-hidden="true"><i class="icon-remove"></i> Close</button>
+  <button class="btn btn-primary" name="send" type="submit"><i class="icon-envelope"></i> Enviar</button>             
+  <button class="btn" data-dismiss="modal" aria-hidden="true"><i class="icon-remove"></i> Cerrar</button>
   </div>
   </form>
   
@@ -197,15 +197,15 @@
   <form action="cancel.php" method="post">
   <div class="modal-header">  	
     <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-    <h3 id="myModalLabel">Please Enter Your Cancelation Code</h3>
+    <h3 id="myModalLabel">Ingrese su código de cancelación</h3>
   </div>
   <div class="modal-body">
     <div align="center"><input name="confirmation" type="text" placeholder="Confirmation Code" required></div>
     <div align="center"><input name="roomid" type="text" placeholder="Room ID" required></div>                
   </div>
   <div class="modal-footer">
-  	<button type="submit" class="btn btn-info"><i class=" icon-arrow-right"></i> Proceed</button>
-    <button class="btn" data-dismiss="modal" aria-hidden="true"><i class="icon-remove"></i> Close</button>
+  	<button type="submit" class="btn btn-info"><i class=" icon-arrow-right"></i> Proceder</button>
+    <button class="btn" data-dismiss="modal" aria-hidden="true"><i class="icon-remove"></i> Cerrar</button>
   </div>
   </form>
 </div><!--Modal end -->
@@ -222,14 +222,14 @@
                             <thead class=" hero-unit">
                                 <tr>
                                 
-                                	<th width="60"><div align="center" style="margin-top:10px;">Image</div></th>
+                                	<th width="60"><div align="center" style="margin-top:10px;">Imagen</div></th>
                                     <th width="20"><div align="center" style="margin-top:10px;">No.</div></th>
-                                    <th width="100"><div align="center" style="font-size:16px">Price</div></th>
-                                    <th width="50"><div align="center" style="font-size:18px;">Adults</div><div style="font-size:10px;" align="center"> Age: 8+</div></th>
-                                    <th width="50"><div align="center" style="font-size:18px;">Childs</div><div style="font-size:10px;" align="center"> Age: 0-7</div></th>
-                                    <th width="180"><div align="center" style="font-size:16px">Category</div></th>
-                                    <th width="160"><div align="center" style="font-size:16px">10% Pre-payment</div></th>
-                                    <th><div align="center" style="font-size:16px">Status</div></th>
+                                    <th width="100"><div align="center" style="font-size:16px">Precio</div></th>
+                                    <th width="50"><div align="center" style="font-size:18px;">Adultos</div><div style="font-size:10px;" align="center"> Age: 8+</div></th>
+                                    <th width="50"><div align="center" style="font-size:18px;">Niños</div><div style="font-size:10px;" align="center"> Age: 0-7</div></th>
+                                    <th width="180"><div align="center" style="font-size:16px">Categoría</div></th>
+                                    <th width="160"><div align="center" style="font-size:16px">10% de prepago</div></th>
+                                    <th><div align="center" style="font-size:16px">Estado</div></th>
                             
                           
                                 </tr>
@@ -434,24 +434,24 @@
       <!-- Example row of columns -->
       <div class="row">
         <div class="span4">
-          <h2>Promos</h2>
-          <p>Prepayment is required to confirm your reservation and this is non-refundable.
+          <h2>Promociones</h2>
+          <p>Se requiere pago por adelantado para confirmar su reserva y esto no es reembolsable.
 
-No additional charge if you cancel 24 hour(s) or more before your arrival date. For cancellations made less than 24 hour(s) before the arrival date, the cost of the first night will be apply. </p>
-          <p><a class="btn" href="#"><i class="icon-gift"></i> View details</a></p>
+Sin cargo adicional si cancela 24 horas o más antes de la fecha de llegada. Para cancelaciones hechas con menos de 24 hora(s) antes de la fecha de llegada, se aplicará el costo de la primera noche. </p>
+          <p><a class="btn" href="#"><i class="icon-gift"></i> Ver detalles</a></p>
         </div>
         <div class="span4">
-          <h2>About Us</h2>
-          <p>Prepayment is required to confirm your reservation and this is non-refundable.
+          <h2>Sobre nosotros</h2>
+          <p>Se requiere pago por adelantado para confirmar su reserva y esto no es reembolsable.
 
-No additional charge if you cancel 24 hour(s) or more before your arrival date. For cancellations made less than 24 hour(s) before the arrival date, the cost of the first night will be apply. </p>
+Sin cargo adicional si cancela 24 horas o más antes de la fecha de llegada. Para cancelaciones hechas con menos de 24 hora(s) antes de la fecha de llegada, se aplicará el costo de la primera noche.  </p>
           <p><a class="btn" href="#about" data-toggle="modal"><i class="icon-book"></i> About</a></p>
        </div>
         <div class="span4">
-          <h2>Contact Us</h2>
-          <p>Prepayment is required to confirm your reservation and this is non-refundable.
+          <h2>Contacta con nosotros</h2>
+          <p>Se requiere pago por adelantado para confirmar su reserva y esto no es reembolsable.
 
-No additional charge if you cancel 24 hour(s) or more before your arrival date. For cancellations made less than 24 hour(s) before the arrival date, the cost of the first night will be apply.</p>
+Sin cargo adicional si cancela 24 horas o más antes de la fecha de llegada. Para cancelaciones hechas con menos de 24 hora(s) antes de la fecha de llegada, se aplicará el costo de la primera noche. </p>
           <p><a class="btn" href="#contact" data-toggle="modal"><i class="icon-envelope"></i> Contact</a></p>
         </div>
 		
@@ -460,7 +460,7 @@ No additional charge if you cancel 24 hour(s) or more before your arrival date. 
       <hr>
 
       <footer>
-        <p>&copy; Kingsfields Express Inn 2013, All Right Reserved 2014 </p>
+        <p>&copy; Kingsfields Express Inn 2013, todos los derechos reservados 2014 </p>
       </footer>
 
     <!-- Le javascript
